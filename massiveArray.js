@@ -29,7 +29,7 @@ function NameObject(first,last){
 // nested loop to create multi-dimensional array 
 for(var i = 0; i < 4; i++){
     massiveArray[i] = [];
-    for(var j = 0; j < 50; j++){
+    for(var j = 0; j < 250; j++){
         firstName = getFirstName(getRandom(0,9));
         lastName = getLastName(getRandom(0,9));
         massiveArray[i].push(new NameObject(firstName,lastName));
